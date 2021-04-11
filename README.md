@@ -6,7 +6,7 @@ Discord Rich Presence script for Clementine
 
 ## Requirements
 
-Python, `pyprensence` and `dbus-python`
+Python, `pypresence` and `dbus-python`
 
 `pip install -r requirements.txt`
 
