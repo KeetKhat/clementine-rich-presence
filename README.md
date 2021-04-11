@@ -1,6 +1,6 @@
 # Clementine Rich Presence
 
-Clementine Rich Presence script for Discord
+Discord Rich Presence script for Clementine
 
 ![Playing a song](clementine-rich-presence1.png)
 
