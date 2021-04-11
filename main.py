@@ -37,7 +37,7 @@ class PresenceUpdate:
 				time.sleep(5)
 
 			except (pypresence.exceptions.InvalidID) as e:
-				print("[ERREUR] Connection to Discord failed : %s" % str(e))
+				print("[ERROR] Connection to Discord failed : %s" % str(e))
 				print("[INFO] Reconnecting in 5s")
 				time.sleep(5)
 
