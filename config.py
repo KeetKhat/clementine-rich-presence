@@ -1,7 +1,7 @@
 APPLICATION_ID = "824669616675749889"
 MPRIS_MP2 = "org.mpris.MediaPlayer2.Player"
 
-LARGE_TXT = "Clementine Music Plauer"
+LARGE_TXT = "Clementine Music Player"
 
 PLAY_TXT = "Playing"
 PAUSE_TXT = "Paused"
