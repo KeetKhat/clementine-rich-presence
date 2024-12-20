@@ -15,3 +15,7 @@ Python, `pypresence` and `dbus-python`
 `python main.py`
 
 You can customize the strings by editing the config.py file
+
+### Strawberry
+
+To use this program with Strawberry music player, modify the `APPLICATION` variable in `config.py`.  Set `APPLICATION` to `1`.
