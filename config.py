@@ -11,3 +11,7 @@ NO_ARTIST = "Unknown artist: "
 NO_ARTIST_NOR_ALBUM = "Unknown artist: Unknown album"
 
 STOP_DETAILS = "Idle"
+
+# 0: Clementine Music Player
+# 1: Strawberry Music Player
+APPLICATION = 0
