@@ -22,7 +22,12 @@ class PresenceUpdate:
 			try:
 				if not self.prop_iface:
 					print("[INFO] Connecting to Clementine")
-					self.player = self.bus.get_object("org.mpris.MediaPlayer2.clementine", '/org/mpris/MediaPlayer2')
+					if APPLICATION == 0:
+						self.player = self.bus.get_object("org.mpris.MediaPlayer2.clementine", '/org/mpris/MediaPlayer2')
+					elif APPLICATION == 1:
+						self.player = self.bus.get_object("org.mpris.MediaPlayer2.strawberry", '/org/mpris/MediaPlayer2')
+					else:
+						raise ValueError(f"Bad APPLICATION value: {APPLICATION}")
 					self.prop_iface = dbus.Interface(self.player, dbus_interface="org.freedesktop.DBus.Properties")
 				print("[INFO] Connecting to Discord")
 				self.client.connect()
